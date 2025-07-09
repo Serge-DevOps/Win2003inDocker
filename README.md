@@ -9,5 +9,5 @@ Running Windows Server 2003 standard 32 bit in a container. It's a nested virtua
 
 3. **Create a QEMU Disk Image**
 	Download qemu-img.exe https://cloudbase.it/qemu-img-windows/ in a zip folder. Unzip it and open `cmd` from this folder. Execute following command:
-    `qemu-img create -f qcow2 win2003.qcow2 30G`
-    This creates a 30GB virtual hard drive that Windows will install onto.
+
+    `qemu-img create -f qcow2 win2003.qcow2 30G` - This creates a 30GB virtual hard drive that Windows will install onto.
